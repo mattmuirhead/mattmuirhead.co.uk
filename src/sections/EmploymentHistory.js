@@ -1,6 +1,6 @@
 
 import * as React from 'react'
-import { Flex, Image, Heading, Button, useMediaQuery } from '@chakra-ui/react'
+import { Flex, Image, Heading, useMediaQuery } from '@chakra-ui/react'
 import SectionWrapper from '../components/SectionWrapper'
 import SectionTitle from '../components/SectionTitle'
 import ConcreteModal from '../modals/ConcreteModal'

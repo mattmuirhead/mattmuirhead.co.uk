@@ -2,7 +2,6 @@
 import * as React from 'react'
 import { Image, Box, Divider, Heading, useMediaQuery } from '@chakra-ui/react'
 import SectionWrapper from '../components/SectionWrapper'
-import SectionTitle from '../components/SectionTitle'
 import Slider from 'react-slick'
 
 const Knowledge = () => {
@@ -18,8 +17,6 @@ const Knowledge = () => {
 
   return (
     <SectionWrapper>
-      <SectionTitle>Knowledge</SectionTitle>
-
       <Heading as="h6" size="md" mb={4} fontWeight="400">My Tech Stack</Heading>
       <Slider {...settings}>
         <Box px={4}><Image src="/knowledge/react.jpg" alt="React" /></Box>

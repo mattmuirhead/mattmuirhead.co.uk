@@ -38,7 +38,7 @@ const DauntlessModal = () => {
         <ModalOverlay />
         <ModalContent borderRadius={0}>
           <ModalCloseButton />
-          <ModalBody maxWidth="750px" m="0 auto">
+          <ModalBody width="100%" maxWidth="750px" m="0 auto" overflow="hidden">
             <Image width="100%" maxWidth="150px" alignSelf="center" src="/employment/dauntless.jpg" alt="Dauntless" />
             <Heading as="h3" size="md" fontWeight="400" color="teal.500">Lead Web/UI Developer</Heading>
             <Text fontSize="sm" mb={4}>
